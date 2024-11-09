@@ -38,7 +38,7 @@ const RecentProjects = () => {
 
                     </div>
                     <div className="flex justify-center items-center">
-                        <p className="flex lg:text-xl md:text-xs text-sm text-purple"><a href={link}>Github</a></p>
+                        <p className="flex lg:text-xl md:text-xs text-sm text-purple">Github</p>
                         <FaLocationArrow className="ms-3" color="CBACF9" />
                         </div>
 
