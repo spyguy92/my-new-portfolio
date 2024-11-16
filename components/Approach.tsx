@@ -9,23 +9,23 @@ const Approuch = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">
-          approach
+      Мой <span className="text-purple">
+      подход
         </span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card 
-        title="Planing & Strategy" 
-        icon={<AceternityIcon order="Phase 1"/>}
-        description="Once we agree on the plan,">
+        title="Планирование и стратегия" 
+        icon={<AceternityIcon order="Фаза 1"/>}
+        description="Мы будем сотрудничать, чтобы определить цели вашего сайта, целевую аудиторию и ключевые функциональные возможности. Мы обсудим такие аспекты, как структура сайта, навигация и требования к контенту.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Nisha is Munni" 
-        icon={<AceternityIcon order="Phase 2"/>}
-        description="Once we agree on the plan,">
+        <Card title="Разработка и обновление прогресса" 
+        icon={<AceternityIcon order="Фаза 2"/>}
+        description="Как только мы согласуем план, я включаю свою ло-fi плейлист и погружаюсь в кодинг. От первоначальных эскизов до отшлифованного кода, я держу вас в курсе на каждом этапе.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -38,9 +38,9 @@ const Approuch = () => {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
-        <Card title="Munni is Aditi" 
-        icon={<AceternityIcon order="Phase 3"/>}
-        description="Once we agree on the plan,">
+        <Card title="Разработка и запуск" 
+        icon={<AceternityIcon order="Фаза 3"/>}
+        description="Здесь происходит магия! На основе утвержденного дизайна я превращаю всё в функциональный код, создавая ваш сайт с нуля.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"

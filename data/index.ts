@@ -1,14 +1,14 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Я придаю большое значение сотрудничеству с клиентами, способствуя открытому общению",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Я очень гибок в вопросах общения по часовых поясам",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Мой стек технологий",
+    description: "Я постоянно стараюсь совершенствоваться",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Техноэнтузиаст с увлечением разработкой.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "В настоящее время занимаюсь созданием различных проектов для онлайн-работ.",
+    description: "Внутренняя информация.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Хочешь начать проект вместе?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +72,65 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Recipe App",
+    des: "Приложение для рецептов с запросами к API, случайных рецептов и избранных рецептов, CRUD для базы данных.",
+    img: "/recipe.png",
+    iconLists: ["/re.svg", "/ts.svg", "/postgresql.svg", "/prisma.svg"],
+    link: "",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Приложение для распознавания лиц",
+    des: "Приложение для распознавания лиц с использованием React.js и CSS.",
+    img: "/brain.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://github.com/spyguy92/face-recognition-brain-api",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Приложение для заметок Laravel",
+    des: "Приложение для заметок, использующее Php с Laravel, blade и tailwind css.",
+    img: "notes.png",
+    iconLists: ["/php.svg", "laravel.svg", "blade.svg", "/tail.svg"],
+    link: "https://github.com/spyguy92/notes-laravel",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Этот веб-разработчик – настоящий профессионал. Он быстро понял все требования проекта и предложил инновационные решения. Работа выполнена в срок, а результат превзошел все ожидания!",
+    name: "Анна Иванова",
+    title: "Анна Иванова",
+    img: "Анна.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Очень довольны сотрудничеством с этим разработчиком. Он отлично разбирается в своем деле, всегда доступен для общения и готов предложить лучшие варианты для решения задач. Рекомендуем!",
+    name: "Игорь Смирнов",
+    title: "Технический директор",
+    img: "Игорь.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Высококлассный специалист! Созданный сайт полностью соответствует нашим ожиданиям. Работа была выполнена с вниманием к деталям и на высоком уровне. Обязательно обратимся снова!",
+    name: "Елена Петрова",
+    title: "Менеджер по проектам",
+    img: "Елена.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Прекрасный веб-разработчик! Отличается высоким профессионализмом, умеет работать в срок и учитывает все пожелания клиента. Мы остались очень довольны результатом!",
+    name: "Дмитрий Васильев",
+    title: "UI/UX дизайнер",
+    img: "Дмитрий.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Сотрудничество с этим разработчиком было настоящим удовольствием. Он учел все наши пожелания, предложил лучшие решения для проекта, и результат превзошел ожидания. Определенно будем работать в будущем!",
+    name: "Мария Кузнецова",
+    title: "Специалист по цифровому маркетингу",
+    img: "Мария.jpg",
   },
 ];
 
@@ -173,29 +170,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Стажер фронтенд-разработчик",
+    desc: "Помогал в разработке веб-платформы с использованием React.js, улучшая интерактивность.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Разработчик мобильных приложений - JSM Tech",
+    desc: "Разработал и спроектировал мобильное приложение для платформ iOS и Android с использованием React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Проект по разработке мобильных приложений на фрилансе",
+    desc: "Возглавил разработку мобильного приложения для клиента, от первоначальной концепции до размещения в магазинах приложений.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Ведущий фронтенд-разработчик",
+    desc: "Разрабатывал и поддерживал функционал, ориентированный на пользователя, с использованием современных технологий фронтенда.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
