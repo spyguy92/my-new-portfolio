@@ -76,7 +76,7 @@ export const projects = [
     des: "Приложение для рецептов с запросами к API, случайных рецептов и избранных рецептов, CRUD для базы данных.",
     img: "/recipe.png",
     iconLists: ["/re.svg", "/ts.svg", "/postgresql.svg", "/prisma.svg"],
-    link: "",
+    link: "https://github.com/spyguy92/recipes-front",
   },
   {
     id: 2,
