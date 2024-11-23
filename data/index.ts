@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Приложение для распознавания лиц",
-    des: "Приложение для распознавания лиц с использованием React.js и CSS.",
-    img: "/brain.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/spyguy92/face-recognition-brain-api",
+    title: "Vue Jobs project",
+    des: "Проект сайта со списком вакансий на Vue js с функционалом CRUD.",
+    img: "/vue-jobs.png",
+    iconLists: ["/Vue.svg", "/tail.svg",],
+    link: "https://github.com/spyguy92/Vue-Jobs-project",
   },
   {
     id: 3,
@@ -93,6 +93,14 @@ export const projects = [
     img: "notes.png",
     iconLists: ["/php.svg", "laravel.svg", "blade.svg", "/tail.svg"],
     link: "https://github.com/spyguy92/notes-laravel",
+  },
+  {
+    id: 4,
+    title: "Приложение для распознавания лиц",
+    des: "Приложение для распознавания лиц с использованием React.js и CSS.",
+    img: "/brain.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://github.com/spyguy92/face-recognition-brain-api",
   },
 ];
 
